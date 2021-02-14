@@ -1,0 +1,29 @@
+LetterBlock:
+        size_hint: None, None
+        size: root.width * .139, root.height * .0676
+        pos: root.width * .299, root.height * .311
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture2
+                size: self.size
+                pos: self.pos
+
+    LetterBlock:
+        size_hint: None, None
+        size: root.width * .139, root.height * .0676
+        pos: root.width * .521, root.height * .311
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture3
+                size: self.size
+                pos: self.pos
+
+    LetterBlock:
+        size_hint: None, None
+        size: root.width * .139, root.height * .0676
+        pos: root.width * .411, root.height * .108
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture4
+                size: self.size
+                pos: self.pos

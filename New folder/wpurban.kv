@@ -1,0 +1,647 @@
+# #:include letterblock.kv
+FloatLayout:
+    Background:
+        canvas:
+            Rectangle:
+                texture: self.background_texture
+                size: self.size
+    Base:
+        size_hint: 1, .45
+        pos_hint: {'center_x': .5, 'top': 1}
+        canvas:
+            Rectangle:
+                texture: self.base_texture
+                size: self.size
+                pos: self.pos
+    RightWidgetPlate:
+        size_hint: None, None
+        size: 169, 80
+        pos_hint: {'center_x': .99, 'center_y': .4}
+        canvas:
+            Rectangle:
+                texture: self.right_widget_plate_texture
+                size: self.size
+                pos: self.pos
+    RightWidgetPlate:
+        size_hint: None, None
+        size: 169, 80
+        pos_hint: {'center_x': .99, 'center_y': .07}
+        canvas:
+            Rectangle:
+                texture: self.right_widget_plate_texture
+                size: self.size
+                pos: self.pos
+    RightWidgetPlate:
+        size_hint: None, None
+        size: 84.5, 40
+        pos_hint: {'center_x': .899, 'center_y': .97}
+        canvas:
+            Rectangle:
+                texture: self.right_widget_plate_texture
+                size: self.size
+                pos: self.pos
+    LeftWidgetPlate:
+        size_hint: None, None
+        size: 169, 80
+        pos_hint: {'center_x': .01, 'center_y': .4}
+        canvas:
+            Rectangle:
+                texture: self.left_widget_plate_texture
+                size: self.size
+                pos: self.pos
+    LeftWidgetPlate:
+        size_hint: None, None
+        size: 169, 80
+        pos_hint: {'center_x': .01, 'center_y': .07}
+        canvas:
+            Rectangle:
+                texture: self.left_widget_plate_texture
+                size: self.size
+                pos: self.pos
+    LeftWidgetPlate:
+        size_hint: None, None
+        size: 84.5, 40
+        pos_hint: {'center_x': .02, 'center_y': .97}
+        canvas:
+            Rectangle:
+                texture: self.left_widget_plate_texture
+                size: self.size
+                pos: self.pos
+
+    Tablet:
+        id: tablet
+        size_hint: .86, .45
+        pos_hint: {'center_x': .5, 'top': 2}
+        canvas:
+            Rectangle:
+                texture: self.tablet_texture
+                size: self.size
+                pos: self.pos
+    ShuffleButton:
+        id: shuffle_button
+        pos_hint: {'center_x': .1,'center_y': .3}
+        size_hint: None, None
+        size: 45, 45
+        canvas:
+            Rectangle:
+                texture: self.shuffle_button_texture
+                size: self.size
+                pos: self.pos
+
+
+# letter plates
+    LetterPlate:
+        id: plate_0
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_1
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_2
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_3
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_4
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_5
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_6
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_7
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_8
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_9
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_10
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_11
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_12
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_13
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_14
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_15
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_16
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_17
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_18
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_19
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_20
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_21
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_22
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_23
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_24
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_25
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_26
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_27
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_27
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_28
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_29
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+
+    BoxLayout:
+        size_hint: None, None
+        pos_hint: {'center_x': .5, 'center_y': .46}
+        size: 260, 25
+        opacity: 0
+        canvas:
+            Rectangle:
+                size: self.size
+                pos: self.pos
+
+# virtual letters
+    VirtualLetter0:
+        id: vletter0
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_0
+                pos: self.pos
+
+    VirtualLetter1:
+        id: vletter1
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_1
+                pos: self.pos
+
+    VirtualLetter2:
+        id: vletter2
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_2
+                pos: self.pos
+
+    VirtualLetter3:
+        id: vletter3
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_3
+                pos: self.pos
+
+    VirtualLetter4:
+        id: vletter4
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_4
+                pos: self.pos
+
+    VirtualLetter5:
+        id: vletter5
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_5
+                pos: self.pos
+
+    VirtualLetter6:
+        id: vletter6
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_6
+                pos: self.pos
+
+    VirtualLetter7:
+        id: vletter7
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_7
+                pos: self.pos
+
+    VirtualLetter8:
+        id: vletter8
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_8
+                pos: self.pos
+
+    VirtualLetter9:
+        id: vletter9
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_9
+                pos: self.pos
+
+
+
+    Coin:
+        pos_hint: {'center_x': .847, 'center_y': .969}
+        size_hint: .078, .031
+        canvas:
+            Rectangle:
+                texture: self.coin_texture
+                pos: self.pos
+                size: self.size
+
+
+# Letter Blocks
+    LetterBlock0:
+        id: letter_0
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture0
+                size: self.size
+                pos: self.pos
+
+    LetterBlock1:
+        id: letter_1
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture1
+                size: self.size
+                pos: self.pos
+
+    LetterBlock2:
+        id: letter_2
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture2
+                size: self.size
+                pos: self.pos
+
+    LetterBlock3:
+        id: letter_3
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture3
+                size: self.size
+                pos: self.pos
+
+    LetterBlock4:
+        id: letter_4
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture4
+                size: self.size
+                pos: self.pos
+
+    LetterBlock5:
+        id: letter_5
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture5
+                size: self.size
+                pos: self.pos
+
+    LetterBlock6:
+        id: letter_6
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture6
+                size: self.size
+                pos: self.pos
+
+    LetterBlock7:
+        id: letter_7
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture7
+                size: self.size
+                pos: self.pos
+
+    LetterBlock8:
+        id: letter_8
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture8
+                size: self.size
+                pos: self.pos
+
+    LetterBlock9:
+        id: letter_9
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_block_texture9
+                size: self.size
+                pos: self.pos
+
