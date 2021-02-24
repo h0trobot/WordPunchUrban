@@ -1,0 +1,748 @@
+plate_0 = self.root.ids.plate_0
+        plate_1 = self.root.ids.plate_1
+        plate_2 = self.root.ids.plate_2
+        plate_3 = self.root.ids.plate_3
+        plate_4 = self.root.ids.plate_4
+        plate_5 = self.root.ids.plate_5
+        plate_6 = self.root.ids.plate_6
+        plate_7 = self.root.ids.plate_7
+        plate_8 = self.root.ids.plate_8
+        plate_9 = self.root.ids.plate_9
+        plate_10 = self.root.ids.plate_10
+        plate_11 = self.root.ids.plate_11
+        plate_12 = self.root.ids.plate_12
+        plate_13 = self.root.ids.plate_13
+        plate_14 = self.root.ids.plate_14
+        plate_15 = self.root.ids.plate_15
+        plate_16 = self.root.ids.plate_16
+        plate_17 = self.root.ids.plate_17
+        plate_18 = self.root.ids.plate_18
+        plate_19 = self.root.ids.plate_19
+        plate_20 = self.root.ids.plate_20
+        plate_21 = self.root.ids.plate_21
+        plate_22 = self.root.ids.plate_22
+        plate_23 = self.root.ids.plate_23
+        plate_24 = self.root.ids.plate_24
+        plate_25 = self.root.ids.plate_25
+        plate_26 = self.root.ids.plate_26
+        plate_27 = self.root.ids.plate_27
+        plate_28 = self.root.ids.plate_28
+        plate_29 = self.root.ids.plate_29
+        '''
+        if len(entry_lengths) == 3:
+            if entry_lengths[0] == 2:
+                plate_0.pos, plate_0.size = (128, 610), (50, 50)
+                plate_1.pos, plate_1.size = (188, 610), (50, 50)
+            if entry_lengths[0] == 3:
+                plate_0.pos, plate_0.size = (96, 610), (50, 50)
+                plate_1.pos, plate_1.size = (156, 610), (50, 50)
+                plate_2.pos, plate_2.size = (216, 610), (50, 50)
+            if entry_lengths[0] == 4:
+                plate_0.pos, plate_0.size = (65, 610), (50, 50)
+                plate_1.pos, plate_1.size = (125, 610), (50, 50)
+                plate_2.pos, plate_2.size = (185, 610), (50, 50)
+                plate_3.pos, plate_3.size = (245, 610), (50, 50)
+            if entry_lengths[0] == 5:
+                plate_0.pos, plate_0.size = (45, 610), (50, 50)
+                plate_1.pos, plate_1.size = (100, 610), (50, 50)
+                plate_2.pos, plate_2.size = (155, 610), (50, 50)
+                plate_3.pos, plate_3.size = (210, 610), (50, 50)
+                plate_4.pos, plate_4.size = (265, 610), (50, 50)
+            if entry_lengths[0] == 6:
+                plate_0.pos, plate_0.size = (100, 610), (40, 40)
+                plate_1.pos, plate_1.size = (140, 610), (40, 40)
+                plate_2.pos, plate_2.size = (180, 610), (40, 40)
+                plate_3.pos, plate_3.size = (220, 610), (40, 40)
+                plate_4.pos, plate_4.size = (260, 610), (40, 40)
+                plate_5.pos, plate_5.size = (300, 610), (40, 40)
+            if entry_lengths[1] == 2:
+                plate_6.pos, plate_6.size = (128, 520), (50, 50)
+                plate_7.pos, plate_7.size = (188, 520), (50, 50)
+            if entry_lengths[1] == 3:
+                plate_6.pos, plate_6.size = (96, 520), (50, 50)
+                plate_7.pos, plate_7.size = (156, 520), (50, 50)
+                plate_8.pos, plate_8.size = (216, 520), (50, 50)
+            if entry_lengths[1] == 4:
+                plate_6.pos, plate_6.size = (65, 520), (50, 50)
+                plate_7.pos, plate_7.size = (125, 520), (50, 50)
+                plate_8.pos, plate_8.size = (185, 520), (50, 50)
+                plate_9.pos, plate_9.size = (245, 520), (50, 50)
+            if entry_lengths[1] == 5:
+                plate_6.pos, plate_6.size = (45, 520), (50, 50)
+                plate_7.pos, plate_7.size = (100, 520), (50, 50)
+                plate_8.pos, plate_8.size = (155, 520), (50, 50)
+                plate_9.pos, plate_9.size = (210, 520), (50, 50)
+                plate_10.pos, plate_10.size = (265, 520), (50, 50)
+            if entry_lengths[1] == 6:
+                plate_6.pos, plate_6.size = (100, 520), (40, 40)
+                plate_7.pos, plate_7.size = (140, 520), (40, 40)
+                plate_8.pos, plate_8.size = (180, 520), (40, 40)
+                plate_9.pos, plate_9.size = (220, 520), (40, 40)
+                plate_10.pos, plate_10.size = (260, 520), (40, 40)
+                plate_11.pos, plate_11.size = (300, 520), (40, 40)
+            if entry_lengths[2] == 2:
+                plate_12.pos, plate_12.size = (128, 450), (50, 50)
+                plate_13.pos, plate_13.size = (188, 450), (50, 50)
+            if entry_lengths[2] == 3:
+                plate_12.pos, plate_12.size = (96, 450), (50, 50)
+                plate_13.pos, plate_13.size = (156, 450), (50, 50)
+                plate_14.pos, plate_14.size = (216, 450), (50, 50)
+            if entry_lengths[2] == 4:
+                plate_12.pos, plate_12.size = (65, 450), (50, 50)
+                plate_13.pos, plate_13.size = (125, 450), (50, 50)
+                plate_14.pos, plate_14.size = (185, 450), (50, 50)
+                plate_15.pos, plate_15.size = (245, 450), (50, 50)
+            if entry_lengths[2] == 5:
+                plate_12.pos, plate_12.size = (45, 450), (50, 50)
+                plate_13.pos, plate_13.size = (100, 450), (50, 50)
+                plate_14.pos, plate_14.size = (155, 450), (50, 50)
+                plate_15.pos, plate_15.size = (210, 450), (50, 50)
+                plate_16.pos, plate_16.size = (265, 450), (50, 50)
+            if entry_lengths[2] == 6:
+                plate_12.pos, plate_12.size = (50, 450), (40, 40)
+                plate_13.pos, plate_13.size = (110, 450), (40, 40)
+                plate_14.pos, plate_14.size = (170, 450), (40, 40)
+                plate_15.pos, plate_15.size = (230, 450), (40, 40)
+                plate_16.pos, plate_16.size = (290, 450), (40, 40)
+                plate_17.pos, plate_17.size = (350, 450), (40, 40)
+
+        if len(entry_lengths) == 4:
+            if entry_lengths[0] == 2:
+                plate_0.pos, plate_0.size = (128, 610), (50, 50)
+                plate_1.pos, plate_1.size = (188, 610), (50, 50)
+            if entry_lengths[0] == 3:
+                plate_0.pos, plate_0.size = (96, 610), (50, 50)
+                plate_1.pos, plate_1.size = (156, 610), (50, 50)
+                plate_2.pos, plate_2.size = (216, 610), (50, 50)
+            if entry_lengths[0] == 4:
+                plate_0.pos, plate_0.size = (65, 610), (50, 50)
+                plate_1.pos, plate_1.size = (125, 610), (50, 50)
+                plate_2.pos, plate_2.size = (185, 610), (50, 50)
+                plate_3.pos, plate_3.size = (245, 610), (50, 50)
+            if entry_lengths[0] == 5:
+                plate_0.pos, plate_0.size = (45, 610), (50, 50)
+                plate_1.pos, plate_1.size = (100, 610), (50, 50)
+                plate_2.pos, plate_2.size = (155, 610), (50, 50)
+                plate_3.pos, plate_3.size = (210, 610), (50, 50)
+                plate_4.pos, plate_4.size = (265, 610), (50, 50)
+            if entry_lengths[0] == 6:
+                plate_0.pos, plate_0.size = (100, 610), (40, 40)
+                plate_1.pos, plate_1.size = (140, 610), (40, 40)
+                plate_2.pos, plate_2.size = (180, 610), (40, 40)
+                plate_3.pos, plate_3.size = (220, 610), (40, 40)
+                plate_4.pos, plate_4.size = (260, 610), (40, 40)
+                plate_5.pos, plate_5.size = (300, 610), (40, 40)
+            if entry_lengths[1] == 2:
+                plate_6.pos, plate_6.size = (128, 540), (50, 50)
+                plate_7.pos, plate_7.size = (188, 540), (50, 50)
+            if entry_lengths[1] == 3:
+                plate_6.pos, plate_6.size = (96, 540), (50, 50)
+                plate_7.pos, plate_7.size = (156, 540), (50, 50)
+                plate_8.pos, plate_8.size = (216, 540), (50, 50)
+            if entry_lengths[1] == 4:
+                plate_6.pos, plate_6.size = (65, 540), (50, 50)
+                plate_7.pos, plate_7.size = (125, 540), (50, 50)
+                plate_8.pos, plate_8.size = (185, 540), (50, 50)
+                plate_9.pos, plate_9.size = (245, 540), (50, 50)
+            if entry_lengths[1] == 5:
+                plate_6.pos, plate_6.size = (45, 540), (50, 50)
+                plate_7.pos, plate_7.size = (100, 540), (50, 50)
+                plate_8.pos, plate_8.size = (155, 540), (50, 50)
+                plate_9.pos, plate_9.size = (210, 540), (50, 50)
+                plate_10.pos, plate_10.size = (265, 540), (50, 50)
+            if entry_lengths[1] == 6:
+                plate_6.pos, plate_6.size = (100, 550), (40, 40)
+                plate_7.pos, plate_7.size = (140, 550), (40, 40)
+                plate_8.pos, plate_8.size = (180, 550), (40, 40)
+                plate_9.pos, plate_9.size = (220, 550), (40, 40)
+                plate_10.pos, plate_10.size = (260, 550), (40, 40)
+                plate_11.pos, plate_11.size = (300, 550), (40, 40)
+            if entry_lengths[2] == 2:
+                plate_12.pos, plate_12.size = (128, 470), (50, 50)
+                plate_13.pos, plate_13.size = (188, 470), (50, 50)
+            if entry_lengths[2] == 3:
+                plate_12.pos, plate_12.size = (96, 470), (50, 50)
+                plate_13.pos, plate_13.size = (156, 470), (50, 50)
+                plate_14.pos, plate_14.size = (216, 470), (50, 50)
+            if entry_lengths[2] == 4:
+                plate_12.pos, plate_12.size = (65, 470), (50, 50)
+                plate_13.pos, plate_13.size = (125, 470), (50, 50)
+                plate_14.pos, plate_14.size = (185, 470), (50, 50)
+                plate_15.pos, plate_15.size = (245, 470), (50, 50)
+            if entry_lengths[2] == 5:
+                plate_12.pos, plate_12.size = (45, 470), (50, 50)
+                plate_13.pos, plate_13.size = (100, 470), (50, 50)
+                plate_14.pos, plate_14.size = (155, 470), (50, 50)
+                plate_15.pos, plate_15.size = (210, 470), (50, 50)
+                plate_16.pos, plate_16.size = (265, 470), (50, 50)
+            if entry_lengths[2] == 6:
+                plate_12.pos, plate_12.size = (50, 480), (40, 40)
+                plate_13.pos, plate_13.size = (95, 480), (40, 40)
+                plate_14.pos, plate_14.size = (140, 480), (40, 40)
+                plate_15.pos, plate_15.size = (185, 480), (40, 40)
+                plate_16.pos, plate_16.size = (230, 480), (40, 40)
+                plate_17.pos, plate_17.size = (275, 480), (40, 40)
+            if entry_lengths[3] == 2:
+                plate_18.pos, plate_18.size = (128, 400), (50, 50)
+                plate_19.pos, plate_19.size = (188, 400), (50, 50)
+            if entry_lengths[3] == 3:
+                plate_18.pos, plate_18.size = (96, 400), (50, 50)
+                plate_19.pos, plate_19.size = (156, 400), (50, 50)
+                plate_20.pos, plate_20.size = (216, 400), (50, 50)
+            if entry_lengths[3] == 4:
+                plate_18.pos, plate_18.size = (65, 400), (50, 50)
+                plate_19.pos, plate_19.size = (125, 400), (50, 50)
+                plate_20.pos, plate_20.size = (185, 400), (50, 50)
+                plate_21.pos, plate_21.size = (245, 400), (50, 50)
+            if entry_lengths[3] == 5:
+                plate_18.pos, plate_18.size = (45, 400), (50, 50)
+                plate_19.pos, plate_19.size = (100, 400), (50, 50)
+                plate_20.pos, plate_20.size = (155, 400), (50, 50)
+                plate_21.pos, plate_21.size = (210, 400), (50, 50)
+                plate_22.pos, plate_22.size = (265, 400), (50, 50)
+            if entry_lengths[3] == 6:
+                plate_18.pos, plate_18.size = (50, 410), (40, 40)
+                plate_19.pos, plate_19.size = (95, 410), (40, 40)
+                plate_20.pos, plate_20.size = (140, 410), (40, 40)
+                plate_21.pos, plate_21.size = (185, 410), (40, 40)
+                plate_22.pos, plate_22.size = (230, 410), (40, 40)
+                plate_23.pos, plate_23.size = (275, 410), (40, 40)
+
+        if len(entry_lengths) == 5:
+            if entry_lengths[0] == 2:
+                plate_0.pos, plate_0.size = (128, 610), (40, 40)
+                plate_1.pos, plate_1.size = (188, 610), (40, 40)
+            if entry_lengths[0] == 3:
+                plate_0.pos, plate_0.size = (96, 610), (40, 40)
+                plate_1.pos, plate_1.size = (156, 610), (40, 40)
+                plate_2.pos, plate_2.size = (216, 610), (40, 40)
+            if entry_lengths[0] == 4:
+                plate_0.pos, plate_0.size = (65, 610), (40, 40)
+                plate_1.pos, plate_1.size = (125, 610), (40, 40)
+                plate_2.pos, plate_2.size = (185, 610), (40, 40)
+                plate_3.pos, plate_3.size = (245, 610), (40, 40)
+            if entry_lengths[0] == 5:
+                plate_0.pos, plate_0.size = (45, 610), (40, 40)
+                plate_1.pos, plate_1.size = (100, 610), (40, 40)
+                plate_2.pos, plate_2.size = (155, 610), (40, 40)
+                plate_3.pos, plate_3.size = (210, 610), (40, 40)
+                plate_4.pos, plate_4.size = (265, 610), (40, 40)
+            if entry_lengths[0] == 6:
+                plate_0.pos, plate_0.size = (100, 610), (40, 40)
+                plate_1.pos, plate_1.size = (140, 610), (40, 40)
+                plate_2.pos, plate_2.size = (180, 610), (40, 40)
+                plate_3.pos, plate_3.size = (220, 610), (40, 40)
+                plate_4.pos, plate_4.size = (260, 610), (40, 40)
+                plate_5.pos, plate_5.size = (300, 610), (40, 40)
+            if entry_lengths[1] == 2:
+                plate_6.pos, plate_6.size = (128, 540), (40, 40)
+                plate_7.pos, plate_7.size = (188, 540), (40, 40)
+            if entry_lengths[1] == 3:
+                plate_6.pos, plate_6.size = (96, 540), (40, 40)
+                plate_7.pos, plate_7.size = (156, 540), (40, 40)
+                plate_8.pos, plate_8.size = (216, 540), (40, 40)
+            if entry_lengths[1] == 4:
+                plate_6.pos, plate_6.size = (65, 540), (40, 40)
+                plate_7.pos, plate_7.size = (125, 540), (40, 40)
+                plate_8.pos, plate_8.size = (185, 540), (40, 40)
+                plate_9.pos, plate_9.size = (245, 540), (40, 40)
+            if entry_lengths[1] == 5:
+                plate_6.pos, plate_6.size = (45, 540), (40, 40)
+                plate_7.pos, plate_7.size = (100, 540), (40, 40)
+                plate_8.pos, plate_8.size = (155, 540), (40, 40)
+                plate_9.pos, plate_9.size = (210, 540), (40, 40)
+                plate_10.pos, plate_10.size = (265, 540), (40, 40)
+            if entry_lengths[1] == 6:
+                plate_6.pos, plate_6.size = (100, 550), (40, 40)
+                plate_7.pos, plate_7.size = (140, 550), (40, 40)
+                plate_8.pos, plate_8.size = (180, 550), (40, 40)
+                plate_9.pos, plate_9.size = (220, 550), (40, 40)
+                plate_10.pos, plate_10.size = (260, 550), (40, 40)
+                plate_11.pos, plate_11.size = (300, 550), (40, 40)
+            if entry_lengths[2] == 2:
+                plate_12.pos, plate_12.size = (128, 470), (40, 40)
+                plate_13.pos, plate_13.size = (188, 470), (40, 40)
+            if entry_lengths[2] == 3:
+                plate_12.pos, plate_12.size = (96, 470), (40, 40)
+                plate_13.pos, plate_13.size = (156, 470), (40, 40)
+                plate_14.pos, plate_14.size = (216, 470), (40, 40)
+            if entry_lengths[2] == 4:
+                plate_12.pos, plate_12.size = (65, 470), (40, 40)
+                plate_13.pos, plate_13.size = (125, 470), (40, 40)
+                plate_14.pos, plate_14.size = (185, 470), (40, 40)
+                plate_15.pos, plate_15.size = (245, 470), (40, 40)
+            if entry_lengths[2] == 5:
+                plate_12.pos, plate_12.size = (45, 470), (40, 40)
+                plate_13.pos, plate_13.size = (100, 470), (40, 40)
+                plate_14.pos, plate_14.size = (155, 470), (40, 40)
+                plate_15.pos, plate_15.size = (210, 470), (40, 40)
+                plate_16.pos, plate_16.size = (265, 470), (40, 40)
+            if entry_lengths[2] == 6:
+                plate_12.pos, plate_12.size = (50, 480), (40, 40)
+                plate_13.pos, plate_13.size = (95, 480), (40, 40)
+                plate_14.pos, plate_14.size = (140, 480), (40, 40)
+                plate_15.pos, plate_15.size = (185, 480), (40, 40)
+                plate_16.pos, plate_16.size = (230, 480), (40, 40)
+                plate_17.pos, plate_17.size = (275, 480), (40, 40)
+            if entry_lengths[3] == 2:
+                plate_18.pos, plate_18.size = (128, 400), (40, 40)
+                plate_19.pos, plate_19.size = (188, 400), (40, 40)
+            if entry_lengths[3] == 3:
+                plate_18.pos, plate_18.size = (96, 400), (40, 40)
+                plate_19.pos, plate_19.size = (156, 400), (40, 40)
+                plate_20.pos, plate_20.size = (216, 400), (40, 40)
+            if entry_lengths[3] == 4:
+                plate_18.pos, plate_18.size = (65, 400), (40, 40)
+                plate_19.pos, plate_19.size = (125, 400), (40, 40)
+                plate_20.pos, plate_20.size = (185, 400), (40, 40)
+                plate_21.pos, plate_21.size = (245, 400), (40, 40)
+            if entry_lengths[3] == 5:
+                plate_18.pos, plate_18.size = (45, 400), (40, 40)
+                plate_19.pos, plate_19.size = (100, 400), (40, 40)
+                plate_20.pos, plate_20.size = (155, 400), (40, 40)
+                plate_21.pos, plate_21.size = (210, 400), (40, 40)
+                plate_22.pos, plate_22.size = (265, 400), (40, 40)
+            if entry_lengths[3] == 6:
+                plate_18.pos, plate_18.size = (50, 410), (40, 40)
+                plate_19.pos, plate_19.size = (95, 410), (40, 40)
+                plate_20.pos, plate_20.size = (140, 410), (40, 40)
+                plate_21.pos, plate_21.size = (185, 410), (40, 40)
+                plate_22.pos, plate_22.size = (230, 410), (40, 40)
+                plate_23.pos, plate_23.size = (275, 410), (40, 40)
+            if entry_lengths[4] == 3:
+                plate_24.pos, plate_24.size = (96, 400), (40, 40)
+                plate_25.pos, plate_25.size = (156, 400), (40, 40)
+                plate_26.pos, plate_26.size = (216, 400), (40, 40)
+            if entry_lengths[4] == 4:
+                plate_24.pos, plate_24.size = (65, 400), (40, 40)
+                plate_25.pos, plate_25.size = (125, 400), (40, 40)
+                plate_26.pos, plate_26.size = (185, 400), (40, 40)
+                plate_27pos, plate_27.size = (245, 400), (40, 40)
+            if entry_lengths[4] == 5:
+                plate_24.pos, plate_24.size = (45, 400), (40, 40)
+                plate_25.pos, plate_25.size = (100, 400), (40, 40)
+                plate_26.pos, plate_26.size = (155, 400), (40, 40)
+                plate_27.pos, plate_27.size = (210, 400), (40, 40)
+                plate_28.pos, plate_28.size = (265, 400), (40, 40)
+            if entry_lengths[4] == 6:
+                plate_24.pos, plate_24.size = (50, 410), (40, 40)
+                plate_25.pos, plate_25.size = (95, 410), (40, 40)
+                plate_26.pos, plate_26.size = (140, 410), (40, 40)
+                plate_27.pos, plate_27.size = (185, 410), (40, 40)
+                plate_28.pos, plate_28.size = (230, 410), (40, 40)
+                plate_29.pos, plate_29.size = (275, 410), (40, 40)
+                '''
+
+
+                LetterPlate:
+        id: plate_1
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_2
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_3
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_4
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_5
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_6
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_7
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_8
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_9
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_10
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_11
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_12
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_13
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_14
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_15
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_16
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_17
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_18
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_19
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_20
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_21
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_22
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_23
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_24
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_25
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_26
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_27
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_27
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_28
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+    LetterPlate:
+        id: plate_29
+        size_hint: None, None
+        size: 0, 0
+        pos: 0, 0
+        canvas:
+            Rectangle:
+                texture: self.letter_plate_texture
+                size: self.size
+                pos: self.pos
+
+
+
+
+VirtualLetter0:
+        id: vletter0
+        size_hint: None, None
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_0
+                pos: self.pos
+
+    VirtualLetter1:
+        id: vletter1
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_1
+                pos: self.pos
+
+    VirtualLetter2:
+        id: vletter2
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_2
+                pos: self.pos
+
+    VirtualLetter3:
+        id: vletter3
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_3
+                pos: self.pos
+
+    VirtualLetter4:
+        id: vletter4
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_4
+                pos: self.pos
+
+    VirtualLetter5:
+        id: vletter5
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_5
+                pos: self.pos
+
+    VirtualLetter6:
+        id: vletter6
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_6
+                pos: self.pos
+
+    VirtualLetter7:
+        id: vletter7
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_7
+                pos: self.pos
+
+    VirtualLetter8:
+        id: vletter8
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_8
+                pos: self.pos
+
+    VirtualLetter9:
+        id: vletter9
+        size_hint: None, None
+        size: 0, 0
+        pos: 168, 328
+        canvas:
+            Rectangle:
+                size: self.size
+                texture: self.virtual_letter_texture_9
+                pos: self.pos
